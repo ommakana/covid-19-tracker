@@ -1,0 +1,16 @@
+.card-container {
+    margin: 5% 0;
+
+    .card-block {
+        margin: 0 2%;
+        &.confirmed {
+            border: 4px solid rgb(93, 96, 224);
+        }
+        &.recovered {
+            border: 4px solid rgb(76, 180, 128);
+        }
+        &.deaths {
+            border: 4px solid rgb(218, 50, 8);
+        }
+    }
+}
